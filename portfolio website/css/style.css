@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 2rem;
+  padding: 15px;
+  font-weight: bold;
+}
+
+a:visited {
+  color: white;
+}
+header a:hover {
+  background-color: #fff;
+  color: black;
+  padding: 50px;
+}
+
+nav {
+  justify-content: space-between;
+  align-content: center;
+  text-transform: uppercase;
+  color: antiquewhite;
+}
+nav a {
+  justify-content: space-evenly;
+  height: 100%;
+  align-self: center;
+}
+
+header {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 30rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgb(117, 168, 234);
+}
+header p {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+main {
+  background-image: url(../img/homepage-background.jpg);
+  height: 700px;
+  background-color: yellow;
+  background-size: cover;
+}
+.form {
+  height: 400px;
+  width: 500px;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.365);
+  float: right;
+  margin-right: 300px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+main div h1 {
+  color: #fff;
+  text-align: center;
+  letter-spacing: 0.3rem;
+  font-weight: 300;
+}
+main p {
+  color: #fff;
+}
+.box1 {
+  width: 48%;
+  float: left;
+}
+
+.labelcolor {
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-left: 30%;
+}
+
+.input {
+  height: 35px;
+  text-align: center;
+  background-color: #fff;
+  width: 90%;
+}
+.label2 {
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-left: 10%;
+}
+.textin {
+  height: 150px;
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+.btn {
+  text-transform: uppercase;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: rgb(117, 168, 234);
+  border: #fff solid 2px;
+}
+
+main h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+
+footer{
+    background-color: rgb(117, 168, 234);
+    color: #fff;
+    display: flex;
+    height: 450px;
+align-items: center;
+text-align: center;
+flex-basis: 100px;
+align-items: baseline;
+}
+footer h1{
+    color: rgba(0, 0, 0, 0.656);
+    font-weight: 350;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding-top: 20px;
+    
+}
+footer div{
+    width: 28%;
+    margin-right: 20px;
+}
+.tabout{
+    text-align: left;
+    padding: 20px;
+}
+.flinks{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    height: 150px;
+margin-left: 20%;
+
+
+}
+
+.ibox{
+    margin: 5px;
+    flex-wrap: wrap;
+    height: 80px;
+    width: 90px;
+    background-image: url(../img/homepage-background.jpg);
+    background-size: cover;
+}
+
+.news{
+    display: flex table-column;
+    width: 30%;
+    flex-direction: column-reverse;
+}
+.femail{
+    height: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.015);
+    width: 150px;
+}
+.fbtn{
+    height: 40px;
+    text-transform: uppercase;
+    border: #fff solid 1px;
+    background-color: rgb(37, 37, 37);
+    color: #fff;
+    font-weight: 300;
+    width: 150px;
+}
+.sub p {
+    text-align: left;
+}
+
+footer div {
+    max-height: 250px;
+    margin: auto;
+    margin-top: 30px;
+}
